@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aanchal</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
     <link rel="stylesheet" href="resources.css">
 </head>
@@ -16,20 +22,20 @@
       <nav class="navbar">
         <a href="#home">home</a>
 
-        <a href="emergency.html" target="_blank">emergency</a>
-        <a href="book.html" target="_blank">book</a>
-        <a href="dds.html" target="_blank">do's & don'ts</a>
-        <a href="resources.html" target="_blank">resources</a>
-        <a href="form.html" target="_blank">register</a>
+        <a href="#emergency" target="">emergency</a>
+        <a href="#book" target="">book</a>
+        <a href="#dds" target="">do's & don'ts</a>
+        <a href="#resources" target="">resources</a>
+        <a href="#form" target="">register</a>
         
         <div class="dropdown">
           <button class="dropbtn">More Links
             <i class="fas fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="doctors.html" target="_blank">doctors</a>
-            <a href="review.html" target="_blank">review</a>
-            <a href="blog.html" target="_blank">blogs</a>
+            <a href="#doctors" target="">doctors</a>
+            <a href="#review" target="">review</a>
+            <a href="#blog" target="">blogs</a>
           </div>
         </div>
       </nav>
@@ -90,7 +96,256 @@
         <p>available hospitals</p>
       </div>
     </section>
-       
+    <section class="services">
+      <h1 class="heading"> <span>emergency</span></h1>
+  </section>
+
+  
+  <section class="services" id="services">
+      <h1 style="color: var(--black); padding: 0 0 1rem 0; font-size:35px;">To contact a doctor</h2>
+      <div class="box-container" style="margin-bottom:20px;">
+     
+          <div class="box">
+              <i class="fas fa-pills"></i>
+              <h3>Contact a nutritionist</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+              <a href="#" class="btn"> contact now <span class="fas fa-chevron-right"></span> </a>
+          </div>
+  
+          <div class="box">
+              <i class="fas fa-procedures"></i>
+              <h3>Contact a physician</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+              <a href="#" class="btn"> contact now <span class="fas fa-chevron-right"></span> </a>
+          </div>
+  
+          <div class="box">
+              <i class="fas fa-user-md"></i>
+              <h3>Contact a psychiatrist</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+              <a href="#" class="btn"> contact now <span class="fas fa-chevron-right"></span> </a>
+          </div>
+  
+          <div class="box">
+              <i class="fas fa-baby"></i>
+              <h3>Contact a gynaecologist</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+              <a href="#" class="btn"> contact now <span class="fas fa-chevron-right"></span> </a>
+          </div>
+  
+      </div>
+
+      <h1 style="color: var(--black); padding: 0 0 1rem 0; font-size:35px;">To check ambulance status</h2>
+      <div class="box-container">
+     
+          <div class="box">
+              <i class="fas fa-ambulance"></i>
+              <h3>Ambulance Details</h3>
+              <p>
+                  You have an ambulance arriving from :<br>
+                  Manipal Hospital, Ghaziabad
+              </p>
+              <br>
+              <h3>To cancel the ambulance :</h3>
+              <a href="#" class="btn"> cancel <span class="fas fa-times"></span> </a>
+          </div>  
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.1528058911026!2d77.47026011492389!3d28.65514298240889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf202e418049d%3A0x496e4e07711af556!2sManipal%20Hospital%2C%20Ghaziabad!5e0!3m2!1sen!2sin!4v1673902985918!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+  
+  </section>
+
+  <section class="book" id="book">
+
+    <h1 class="heading"> <span>book</span> now </h1>    
+
+    <div class="row">
+        <hr size="12" width="10000px" class="line">
+        <h1 class="heading"> <span>are you a certified </span> doula/midwife ? register now </h1>
+
+        <hr size="12" width="10000px" class="line">
+        <div class="image">
+            <img src="https://www.dona.org/wp-content/uploads/2016/07/doulasCertificates.jpg" alt="">
+            
+        </div>
+
+        <form action="">
+            <h3>for training and certification</h3>
+            <input type="text" placeholder="your name" class="box">
+            <input type="number" placeholder="your number" class="box">
+            <input type="email" placeholder="your email" class="box">
+            <input type="date" class="box">
+            <input type="submit" value="book now" class="btn">
+        </form>
+
+        <hr size="12" width="10000px" class="line">
+        <h1 class="heading"> <span>to book a </span> midwife </h1>
+        <hr size="12" width="10000px" class="line">
+        <div class="image">
+            <img src="image/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <h3>register now</h3>
+            <input type="text" placeholder="your name" class="box">
+            <input type="number" placeholder="your number" class="box">
+            <input type="email" placeholder="your email" class="box">
+            <input type="address" placeholder="your address" class="box">
+            <input type="submit" value="book now" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<section>
+  <div class="dos">
+      <h2>DO'S</h2> <br>
+    <div class="row2">
+      
+        <div class="p12">
+         <div class="imgs2"><img src="image/parentvitamin.jpeg" alt=""></div> 
+         <div class="content2">
+          <h1>1. DO TAKE A MULTIVITAMIN</h1>
+          </p>
+          <p>Eating a Balanced Diet that is rich in vitamin and Minerals is the best way to provide your body with all the healthy nutrients.
+              <br>
+              A multivitamin will usually include DHA,EPA Or Both.These are Omega-3 Facts that are important for your baby's proper brain development.
+          </p>
+        </div>
+      </div>
+        <div class="p12">
+          <div class="imgs2"><img src="image/sleeping_mother.jpeg" alt=""></div> 
+         <div class="content2">
+          <h1>2.DO GET LOTS OF SLEEP</h1>
+          
+          <P>
+              Changing Hormone Levels,Anticipation and Anxiety can make sleep elusive during your 9 months of regnancy.
+              <br>
+              Aim for 7-9 hours of Shut-Eye Each Night. <br>
+              Fatigue is a sign that your body needs more rest ,so give yourself all the sleep you need.
+              
+          </P>
+      </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row2">
+        <div class="p12">
+          <div class="imgs2"><img src="image/workingout.jpeg" alt=""></div> 
+          <div class="content2">
+          <h1>3.DO WORKOUT DAILY </h1>
+          <P>
+              Regular Exerxcise may help to combat many of the issues that arise during pregnancy including-Insomia <br>
+              -Muscle Pain
+              -Executive Weight Gain
+              -Mood Problems etc.
+          </P>
+      </div></div>
+        <div class="p12">
+          <div class="imgs2"><img src="image/seafood.jpeg" alt=""></div> 
+          <div class="content2">
+          <h1>4.EAT SEAFOOD</h1>
+          
+          <P>
+              Seafood is Loaded with vitamins and Minerals sucha as hearthealthy Omega-3 fatty acds , zinc and iron.These are all important for both mom and baby.Eat a variety of seafood so you don't have a concentration of Minerals from one type of fist.Eat not more than 12 ounces of fish per week.
+          </P>
+       </div></div>
+      </div>
+      <br>
+      <br>
+      <div class="row2">
+          <div class="p12">
+              <div class="imgs2"><img src="image/yoga.jpeg" alt=""></div> 
+              <div class="content2">
+            <h1>5.PRACTICE YOGA</h1>
+           
+            <p>
+              Yoga during pregnancy helps keep the body supple.They relieve tension around the cevix by opening the pelvic region.
+              <br>
+              This prepares to-be- mother  for labour delivery. 
+          </p>
+        </div>
+        </div></div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="donts">
+      <h2>DON'TS</h2> <br>
+    <div class="row">
+      
+        <div class="p1">
+         <div class="imgs"><img src="image/dont1.webp" alt=""></div> 
+         <div class="content">
+          <h1 >1. Don’t smoke</h1>
+          <p> Smoking while pregnant puts both you and your unborn baby at risk. 
+            Babies born to women who smoke during pregnancy are more likely to
+            have a lower birth weight and are at a greater risk for learning
+            disabilities than children born to nonsmoking mothers.
+          </p>
+        </div>
+      </div>
+        <div class="p1">
+          <div class="imgs"><img src="image/dont2.jpg" alt=""></div> 
+         <div class="content">
+          <h1>2. Don’t drink alcohol</h1>
+          <p>
+            Alcohol may greatly impact your baby’s development. People who
+            drink alcohol while pregnant deliver a baby with FAS. Symptoms of FAS include:-low birth weight,
+            learning disabilities, behavior problems, lagging patterns in
+            terms of growth and development milestones.
+          </p>
+      </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+        <div class="p1">
+          <div class="imgs"><img src="image/donts3.jpg" alt=""></div> 
+          <div class="content">
+          <h1>3. Don’t eat raw <br> meat</h1>
+          <p>
+              Raw & undercooked meat and eggs carry the risk of foodborne illness, such as listeriosis and toxoplasmosis.
+              These conditions can cause serious, life-threatening illnesses that could lead to severe birth defects and even miscarriage. Make sure all eggs and meat that you eat while pregnant are well-cooked.
+          </p>
+      </div></div>
+        <div class="p1">
+          <div class="imgs"><img src="image/donts4.jpg" alt=""></div> 
+          <div class="content">
+          <h1>4. Don’t eat unpasteurized milk products</h1>
+          <p>
+              Calcium is very important for growing babies but moms have to be careful how they get their calcium from dairy.
+              Raw milk isn’t recommended for expecting mothers since it’s unpasteurized.
+              Specifically, raw milk may contain the bacteria Listeria. It can lead to illness, miscarriage.
+          </p>
+       </div></div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+          <div class="p1">
+              <div class="imgs"><img src="image/donts5.jfif" alt=""></div> 
+              <div class="content">
+            <h1>5.Don’t drink a lot of caffeine</h1>
+            <p>
+              <br>
+              Caffeine can travel through the placenta and increase your baby’s heart rate.
+              Current research suggests that women can safely consume a cup or two of coffee each day, but forego downing a triple-shot latte while you’re carrying.
+            </p>
+         </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+
 <section class="categories" id="categories">
     <br>
     <br>
@@ -126,7 +381,6 @@
             <p>upto 45% off</p>
             <a href="#" class="btn">shop now</a>
         </div>
-        <br>
         <div class="box">
             <img src="IMG/pregnancyneeds.jpeg" alt="">
             <h3>PREGNANCY NEEDS</h3>
@@ -157,6 +411,247 @@
 
     </div>
 
+</section>
+
+<section class="doctors" id="doctors">
+
+  <h1 class="heading"> our <span>doctors</span> </h1>
+
+  <div class="box-container">
+
+      <div class="box">
+          <img src="image/doc-1.jpg" alt="">
+          <h3>john deo</h3>
+          <span>expert doctor</span>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+
+      <div class="box">
+          <img src="image/doc-2.jpg" alt="">
+          <h3>john deo</h3>
+          <span>expert doctor</span>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+
+      <div class="box">
+          <img src="image/doc-3.jpg" alt="">
+          <h3>john deo</h3>
+          <span>expert doctor</span>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+
+      <div class="box">
+          <img src="image/doc-4.jpg" alt="">
+          <h3>john deo</h3>
+          <span>expert doctor</span>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+
+      <div class="box">
+          <img src="image/doc-5.jpg" alt="">
+          <h3>john deo</h3>
+          <span>expert doctor</span>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+
+      <div class="box">
+          <img src="image/doc-6.jpg" alt="">
+          <h3>john deo</h3>
+          <span>expert doctor</span>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+
+  </div>
+
+</section>
+
+<section class="review" id="review">
+    
+  <h1 class="heading"> client's <span>review</span> </h1>
+
+  <div class="box-container">
+
+      <div class="box">
+          <img src="image/pic-1.png" alt="">
+          <h3>john deo</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid perspiciatis libero nobis rem numquam nesciunt alias sapiente minus voluptatem, reiciendis consequuntur optio dolorem!</p>
+      </div>
+
+      <div class="box">
+          <img src="image/pic-2.png" alt="">
+          <h3>john deo</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid perspiciatis libero nobis rem numquam nesciunt alias sapiente minus voluptatem, reiciendis consequuntur optio dolorem!</p>
+      </div>
+
+      <div class="box">
+          <img src="image/pic-3.png" alt="">
+          <h3>john deo</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid perspiciatis libero nobis rem numquam nesciunt alias sapiente minus voluptatem, reiciendis consequuntur optio dolorem!</p>
+      </div>
+
+  </div>
+
+</section>
+
+<section class="blogs" id="blogs">
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1 class="heading"> our <span>blogs</span> </h1>
+
+  <div class="box-container">
+
+      <div class="box">
+          <img class="blogimg" src="image/dep_pregnancy.jpeg" alt="">
+          <div class="content">
+              <div class="icons">
+                  <!-- <a href="#"> <i class="fas fa-user"></i> by user </a> -->
+                  <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+              </div>
+              <h3>DEPRESSION</h3> 
+              <p class="pcolor">
+                the most common mood disorder in the general population. The condition occurs twice as often in women as in men, and the initial onset of depression peaks during a woman's reproductive years.</p>
+              <a href="#" class="btn">read more</a> 
+             <!-- <button onclick="myFunction()" id="myBtn" >Read More</button> -->
+          </div>
+      </div>
+
+      <div class="box">
+          <img class="blogimg" src="image/anxiety1.png" alt="">
+          <div class="content">
+              <div class="icons">
+                  <!-- <a href="#"> <i class="fas fa-user"></i> by user </a> -->
+                  <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+              </div>
+              <h3>ANXIETY</h3>
+              <p class="pcolor">Anxiety in pregnancy is very common. More than 1 in 10 pregnant women have it 
+                Pregnancy can be a very emotional experience and it can sometimes be difficult to know whether your feelings are manageable or a sign of something more serious. Trust yourself. You're the best judge of whether your feelings are normal for you.</p>
+                <a href="#" class="btn">read more</a> 
+              <!-- <button onclick="myFunction()" id="myBtn1" >Read More</button> -->
+          </div>
+      </div>
+
+      <div class="box">
+          <img class="blogimg"  src="image/preterm_labor.png" alt="">
+          <div class="content">
+              <div class="icons">
+                  <!-- <a href="#"> <i class="fas fa-user"></i> by user </a> -->
+                  <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+              </div>
+              <h3>PRETERM LABOR</h3>
+              <p class="pcolor">Preterm labor is labor that begins before 37 weeks of pregnancy. Any infant born before 37 weeks is at an increased risk for health problems in most cases because organs such as the lungs and brain finish their development in the final weeks before a full-term delivery (39 to 40 weeks).Certain conditions increase the risk for preterm labor, including infections, developing a shortened cervix, or previous preterm births.</p>
+                <a href="#" class="btn">read more</a> 
+              <!-- <button onclick="myFunction(this.id);" id="myBtn3" class="btn">Read More</button> -->
+          </div>
+      </div>
+
+  </div>
+
+
+
+  <div class="box-container">
+
+    <div class="box">
+        <img class="blogimg" src="image/postpartum.jpg" alt="">
+        <div class="content">
+            <div class="icons">
+                <!-- <a href="#"> <i class="fas fa-user"></i> by user </a> -->
+                <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+            </div>
+            <h3>POSTPARTUM</h3>
+            <p class="pcolor">The postpartum period, also known as the puerperium and the "fourth trimester," refers to the time after birth when the physiologic changes related to pregnancy return to the nonpregnant state.
+              During this period, the mother goes through many physical and emotional changes while learning to care for her newborn. r.
+              
+            </p>
+            <a href="#" class="btn">read more</a> 
+            <!-- <button onclick="myFunction()" id="myBtn">Read More</button> -->
+        </div>
+    </div>
+
+    <div class="box">
+        <img class="blogimg" src="image/pcos.jpeg" alt="">
+        <div class="content">
+            <div class="icons">
+                <!-- <a href="#"> <i class="fas fa-user"></i> by user </a> -->
+                <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+            </div>
+            <h3>PCOS</h3>
+            <p class="pcolor">The exact cause of PCOS is unknown. There is evidence that genetics play a role. Several other factors also play a role in causing PCOS
+              If you have PCOS, you are also at increased risk of having a baby larger than expected for their gestational age. This comes with a higher risk of needing a caesarean delivery.If you have PCOS and are pregnant, it is important you talk with your doctor. The risk of these complications can be reduced by monitoring your PCOS symptoms and taking extra care during your pregnancy.You can make lifestyle changes to manage your PCOS and look after your health.</p>
+              <a href="#" class="btn">read more</a> 
+            <!-- <button onclick="myFunction()" id="myBtn">Read More</button> -->
+        </div>
+    </div>
+
+    <div class="box">
+        <img class="blogimg"  src="image/breastfeeding.webp" alt="">
+        <div class="content">
+            <div class="icons">
+                <!-- <a href="#"> <i class="fas fa-user"></i> by user </a> -->
+                <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+            </div>
+            <h3>BREAST FEEDING</h3>
+            <p class="pcolor">It is usually perfectly safe to breastfeed while pregnant. Your body will carry on producing enough milk to nourish your older child, while your unborn baby will get all the nutrients they need from your body. 
+              Breastfeeding does trigger mild contractions. These are safe in uncomplicated pregnancies, but if you are at risk of preterm labour — for example, if you are expecting twins or more, or if you have had a miscarriage or preterm birth in the past — then seek advice from your doctor or midwife.You can look after yourself by eating well, making sure you are well hydrated.
+            </p class>
+            <a href="#" class="btn">read more</a> 
+            <!-- <button onclick="myFunction()" id="myBtn">Read More</button> -->
+        </div>
+    </div>
+
+</div>
 </section>
 
     <!-- footer section starts  -->
@@ -228,13 +723,8 @@
     <!-- footer section ends -->
 
     <!-- custom js file link  -->
-  </body>
-</html>
-
-
-
-<!-- Start of ChatBot (www.chatbot.com) code -->
-<script type="text/javascript">
+    <!-- Start of ChatBot (www.chatbot.com) code -->
+  <script type="text/javascript">
     window.__be = window.__be || {};
     window.__be.id = "63e34f6496b27800077f6066";
     (function() {
@@ -242,5 +732,10 @@
         be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
     })();
-</script>
-<!-- End of ChatBot code -->
+  </script>
+  <!-- End of ChatBot code -->
+  </body>
+</html>
+
+
+
