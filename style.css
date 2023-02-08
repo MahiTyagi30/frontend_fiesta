@@ -672,10 +672,7 @@ section:nth-child(even) {
   }
 }
 
-.blogs {
-  background-image: url(https://c4.wallpaperflare.com/wallpaper/765/958/389/colorful-abstract-design-background-wallpaper-preview.jpg);
-  background-size: cover;
-}
+
 
 .blogs .row .image img {
   width: 100%;
